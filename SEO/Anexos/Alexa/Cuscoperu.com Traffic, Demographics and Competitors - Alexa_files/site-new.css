@@ -1,0 +1,620 @@
+.app-1 {
+  padding-right: 4%;
+}
+.icon-inline{
+	vertical-align: middle;
+	padding-right: 5px;
+}
+
+/***** Search box *************************************************************/
+.siteInfoPage .siteinfo-search .siteinfo-search-label{
+	background: none;
+	padding-left: 0;
+	font-weight: normal;
+}
+.siteInfoPage .searchForm *{
+	vertical-align: middle;
+}
+.siteInfoPage .searchForm .btn-search{
+	border: 0;
+	font-size: 12px;
+	margin-left: 5px;
+}
+
+/***** Page Column ************************************************************/
+.siteInfoPage #threecolwrap{
+	font-size: 12px; /* overwrite body 1em */
+}
+.siteInfoPage #threecolwrap #content{
+  color: #333;
+  background-color: #ececec;
+  padding-top: 0;
+}
+.siteInfoPage #threecolwrap #content-inner{
+	padding: 0;
+}
+.siteInfoPage .bdr-top{
+	border-top: 1px solid #ddd;
+}
+.siteInfoPage .bdr-right{
+	border-right: 1px solid #ddd;
+}
+.siteInfoPage .col-bdr.bdr-right{
+	float: left;
+	width: 100%;
+}
+.siteInfoPage .bdr-btm{
+	/*border-bottom: 1px solid #ddd;*/
+}
+
+/***** Site logo and name section *********************************************/
+.siteInfoPage #siteinfo-site-summary.siteinfo-site-summary{
+	margin: 25px;
+}
+.siteInfoPage #siteinfo-site-summary.siteinfo-site-summary.no-data{
+	margin-bottom: 10px;
+}
+.siteInfoPage .siteinfo-site-summary .logo{
+	float: left;
+	height: 75px;
+	margin: 0 10px 0 0;
+}
+.siteInfoPage #siteinfo-sites-wrapper.summay-site {
+  padding-top: 5px;
+}
+.siteinfo-site-summary .breadcrumbs{
+	font-size: 11px;
+	color: #333;
+}
+.siteinfo-site-summary .breadcrumbs a{
+	text-decoration: none;
+}
+.siteInfoPage .site-short-desc{
+	display: block;
+	margin-bottom: 10px;
+}
+
+/* Site comparison stuff */
+.site-compare-btn{
+	margin-top: 20px;
+}
+.comparisons-edit-form .compare-radio-btns input,
+.comparisons-edit-form .compare-radio-btns label{
+	vertical-align: middle;
+}
+.comparisons-edit-form input[type="text"]{
+	width: 100%;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	padding-right: 22px;
+}
+/* note cannot combine these code because browsers don't understand it */
+.comparisons-edit-form ::-webkit-input-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form ::-moz-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form :-moz-placeholder{
+	font-style: italic;
+}
+.comparisons-edit-form input:-ms-input-placeholder{
+	font-style: italic;
+	color: #aaa;
+}
+.comparisons-edit-form input::-ms-clear{
+	display: none;
+}
+.comparisons-edit-form .form-deletable{
+	position: relative;
+	text-align: right;
+}
+.comparisons-edit-form .form-deletable .js-delete-input{
+	position: absolute;
+	display: none;
+	right: 5px;
+	top: 5px;
+	cursor: pointer;
+}
+.chrome .comparisons-edit-form .form-deletable .js-delete-input{
+	top: 7px;
+}
+.comparisons-edit-form .form-deletable .js-delete-input.active{
+	display: block;
+	background: transparent url('/images/icons/sprite-clear-x.png') no-repeat 0 0;
+	width: 16px;
+	height: 16px;
+}
+.comparisons-edit-form .form-deletable .js-delete-input.active:hover{
+	background-position: -18px 0;
+}
+.comparisons-edit-form .css-select ul.scrollable{
+	overflow-y: scroll;
+}
+.comparisons-edit-form .css-select-wrapper ul.scrollable{
+	height: 290px;
+}
+#compare-login-dialog .dialog-content{
+	background: transparent url('/images/siteinfo/dialog-comparison-img.png') no-repeat 200px 85px;
+}
+	
+
+/***** Panel section **********************************************************/
+
+.siteInfoPage .box-2{
+	display: inline-block;
+	min-width: 300px;
+	line-height: 30px;
+}
+.siteInfoPage .panel-wrapper h4{
+	margin: 0;
+}
+.siteInfoPage .panel-wrapper .sitemetrics-col{
+	display: block;
+	padding-left: 30px;
+}
+
+
+/***** Not enough data ********************************************************/
+	
+.siteInfoPage .note-no-data .panel-wrapper{
+	padding: 15px;
+	/*border: 1px solid #fbb460;*/
+	border-radius: 3px;
+	/*background: #fae3c2 none;*/
+	box-shadow: none;
+	display: table;
+}
+.siteInfoPage .note-no-data .row{
+	display: table-row;
+}
+.siteInfoPage .note-no-data .col-l,
+.siteInfoPage .note-no-data .col-r{
+	display: table-cell;
+}
+.siteInfoPage .note-no-data .col-l{
+	width: 84%;
+	vertical-align: top;
+}
+.siteInfoPage .note-no-data .panel-header{
+  border-bottom: 0px;
+}
+.siteInfoPage .note-no-data .col-l .col-pad{
+	padding-left: 45px;
+  	background: transparent url("/images/siteinfo/no-data-alert.png") no-repeat 0 50%;
+  	display: block;
+}
+.siteInfoPage .note-no-data .col-r{
+	width: 16%;
+	vertical-align: middle;
+	text-align: right;
+  padding-top: 10px;
+}
+	
+/***** Site tool section ******************************************************/
+.siteInfoPage .free-tools{
+	padding: 0;
+}
+.siteInfoPage .free-tools .h2 {
+	font-size: 14px;
+	padding: 10px;
+	border-bottom: 1px solid #ddd;
+	background-color: #e6e6e6;
+}
+.siteInfoPage .free-tools .sub-site-tools{
+	margin: 0 10px;
+}
+.siteInfoPage .free-tools .h3,
+.siteInfoPage .free-tools .sub-site-tools ul,
+.siteInfoPage .free-tools .sub-site-tools li{
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	line-height: 2;
+}
+
+/***** Certified Your Site Information Dialog on site info page ***************/
+#certify-now-dialog .certify-img {
+	background: url('/pro/images/image-Certify-popup.jpg') no-repeat 0 -10px transparent;
+	width: 600px;
+	height: 300px;
+}
+#certify-now-dialog .btn-link {
+	position: relative;
+	top: 235px;
+	left: 255px;
+}
+
+/***** Add logo Dialog ********************************************************/
+
+#edit-listing-dialog .desc,
+#what-is-certify-dialog .desc,
+#add-logo-dialog .desc{
+	margin: 20px 0;
+}
+#add-logo-dialog .col-pad{
+	padding-left: 25px;
+	border-left: 1px solid #dbdbdb;
+	height: 110px;
+}
+#add-logo-dialog{
+	overflow: hidden;
+}
+#what-is-certify-dialog .feature-image {
+  background: transparent url("/pro/images/tools/certified-icon.gif") no-repeat 440px 0;
+}
+
+/***** Keyword & Linksin Promo Dialog *****************************************/
+
+/* Split content dialog css */
+.ui-dialog.dialog-split .ui-dialog-titlebar{
+	display: none;
+}
+.ui-dialog.dialog-split .dialog-custom-close-wrapper{
+	position: relative;
+	float: right;
+}
+.ui-dialog.dialog-split .dialog-custom-close-btn{
+	position: absolute;
+	text-decoration: none;
+	right: 9px;
+	top: 14px;
+}
+.ui-dialog.dialog-split .ui-dialog-content{
+	padding: 0;
+	overflow: hidden;
+}
+
+/* Keyword & Linksin dialog css */
+.siteinfo-promo-dialog h2, .siteinfo-promo-dialog h3{
+	margin: 0;
+	padding: 0;
+}
+.siteinfo-promo-dialog h2{
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+.siteinfo-promo-dialog h3{
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.siteinfo-promo-dialog .dialog-col1 .col-pad{
+	padding: 10px 10px 20px;
+}
+.siteinfo-promo-dialog .dialog-col2 .col-pad{
+	padding: 10px 20px 20px;
+}
+.siteinfo-promo-dialog .col-l,
+.siteinfo-promo-dialog .col-r{
+	float: left;
+}
+.siteinfo-promo-dialog .col-l{
+	width: 90px;
+}
+.siteinfo-promo-dialog .col-l label{
+	padding: 8px 12px 6px 6px;
+	display: inline-block;
+}
+.siteinfo-promo-dialog .col-r{
+}
+.siteinfo-promo-dialog .forgot-pwd{
+	display: block;
+	margin: 10px 0;
+}
+.siteinfo-promo-dialog .facebook-button{
+	border-top: 1px solid #ddd;
+	padding-top: 10px;
+	margin-top: 10px;
+}
+.siteinfo-promo-dialog li{
+	margin-bottom: 5px;
+}
+#keyword-promo-dialog .dialog-content{
+	background: transparent url(/images/siteinfo/dialog-kw-image.gif) no-repeat 40px 80px;
+}
+#keyword-promo-dialog .tool-features{
+	margin: 40px 0;
+}
+#linksin-promo-dialog .tool-features{
+	margin: 0 0 120px; 
+}
+#linksin-promo-dialog .dialog-content{
+	background: transparent url(/images/siteinfo/dialog-backlink-img.gif) no-repeat 135px 115px;
+}
+
+/***** Traffic ****************************************************************/
+.siteInfoPage .spark-bars{
+  	display: none;
+}
+.siteInfoPage .panel-wrapper.no-padding .traffic-rankpromo-content{
+	padding: 12px 20px;
+}
+
+/***** Audience Demographics **************************************************/
+.pybar-bar,
+.pybar-label span,
+.pybar-bar span{
+	display: inline-block;
+}
+.pybar-label, .pybar-bars, .pybar-bar{
+	float: left;
+  height: 100%;
+}
+
+.pybar-label span{
+	padding-right: 10px;
+  line-height: 1.1;
+  font-size: 11px;
+}
+.pybar-help{
+	top: -18px;
+	position: relative;
+}
+.pybar-help .WhatsThis{
+	width: 100px;
+    display: inline-block;
+    line-height: 17px;
+}
+.pybar-help .WhatsThis .fa-question-circle{
+	color: transparent;
+}
+.pybar-help .tt{
+	position: absolute;
+	display: inline-block;
+	width: 100px;
+	left: -100px;
+}
+.pybar-help .tt img{
+	/*visibility: hidden;*/
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	opacity: 0;
+	width: 100%;
+	height: 18px;
+}
+.pybar-help .tt:hover span.tttooltip{
+	top: -9px;
+	left: 24px;
+}
+.siteInfoPage .demo-col1{
+}
+.siteInfoPage .demo-col2{
+  margin-left: 10px;
+}
+.siteInfoPage .demo-col3{
+  margin-left: 0px;
+	float: right;
+}
+.siteInfoPage .pybar-bg {
+  width:49px;
+  margin-top:4px;
+}
+.siteInfoPage .pybar-l {
+  width:50px;
+}
+.siteInfoPage .pybar-bars .row-fluid{
+  height: 21px;
+}
+.siteInfoPage .pybar-bars-bottom .row-fluid{
+  height: 10px;
+}
+
+.siteInfoPage .panel-demo .pybar-label,
+.siteInfoPage .panel-demo .pybar-label-right{
+	width: 100px;
+}
+.siteInfoPage .panel-demo .pybar-bars,
+.siteInfoPage .panel-demo .pybar-bars-right{
+	width: 103px;
+	float: right
+}
+.siteInfoPage .panel-demo .pybar{
+	min-height: 165px;
+	margin-bottom: 20px;
+}	
+
+/***** Visitors by Country ****************************************************/
+.siteInfoPage .panel-wrapper h4.head-bdr-btm,
+.siteInfoPage .section-promo .panel-wrapper h4{
+	border-bottom: 2px solid #676767;
+	padding-bottom: 8px;
+	margin-bottom: 10px;
+}
+
+/***** Linksin ****************************************************************/
+.siteInfoPage .table-linksin .linksin-site .word-wrap{
+	width: 200px;
+}
+.siteInfoPage .table-linksin .linksin-page .word-wrap{
+	width: 320px;
+}
+.siteInfoPage .table-linksin .linksin-rank{
+	padding: 5px 20px;
+}
+
+/***** Linksin Pagination */
+.siteInfoPage .linksin-paging .alexa-pagination{
+	margin-top: 20px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination *{
+	display: inline-block;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span,
+.siteInfoPage .linksin-paging .alexa-pagination a{
+	padding: 5px 10px;
+  	border: 1px solid #ddd;
+  	margin: 0px 4px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.next,
+.siteInfoPage .linksin-paging .alexa-pagination a.previous,
+.siteInfoPage .linksin-paging .alexa-pagination span.previous-disabled, 
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+  background: transparent url("/images/icons/paginate-arrows.png") no-repeat 50% 50%;
+  border: none;
+  width: 6px;
+  height: 9px;
+  padding: 0;
+  margin: 0 6px;
+  vertical-align: middle;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.next{
+	background-position: -16px 0px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.previous{
+	background-position: 0px 0px;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.previous-disabled{
+	background-position: -8px 0px;
+	cursor: not-allowed;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+	background-position: -24px 0;
+	cursor: not-allowed;
+}
+
+.siteInfoPage .linksin-paging .alexa-pagination a.next,
+.siteInfoPage .linksin-paging .alexa-pagination span.next-disabled{
+	padding-right: 0;
+	margin-right: 0;
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.pagination-current{
+	background: #0199d5 none;
+  	color: #fff;
+  	font-weight: normal;
+}
+.siteInfoPage .linksin-paging .alexa-pagination a.pagination-page{
+	background-color: #fff;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#eeeeee');
+    background-image: -moz-linear-gradient(top, #fff, #eee);
+    background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fff), to(#eee));
+    background-image: -webkit-linear-gradient(top, #fff, #eee);
+	background-image: linear-gradient(to bottom, #ffffff, #eeeeee);
+}
+.siteInfoPage .linksin-paging .alexa-pagination span.dividor{
+	border: none;
+	padding: 0;
+}
+
+/***** Keyword ****************************************************************/
+
+/* GEO DATA FORMATTING */
+.geo_percentages, .geo_rk {
+	clear: both;
+	padding: 9px 0;
+	list-style-type: none;
+}
+.geo_bar {
+	background: #eee;
+	float: left;
+	margin-left: 10px;
+	width: 100px;}
+.geo_stat {
+	background: #28be10;
+	float: left;
+}
+.geo_number {
+	float: left;
+	text-align: right;
+	width: 4em;
+}
+.geo_country {
+	float: left;
+	margin: -3px 0 0 10px;
+	height: 1em;
+}
+
+/***** Related to *************************************************************/
+.siteInfoPage .text-gt{
+	font-size: 11px;
+	padding: 0 2px;
+}
+
+/***** Where visitors go ******************************************************/
+.siteInfoPage .section-subdomains .word-wrap{
+	width: 550px;
+}
+
+/***** Promo block ************************************************************/
+.siteInfoPage .section-promo .col-8{
+	width: 210px;
+	padding-right: 34px;
+	line-height: normal;
+}
+.siteInfoPage .section-promo .col-8.last{
+	padding-right: 0;
+}
+.siteInfoPage .section-promo .panel-content p{
+	font-size: 11px;
+	min-height: 80px;
+}
+.siteInfoPage .section-promo .promo-1 p{
+	padding-left: 105px;
+	background: transparent url("/images/siteinfo/promo-audit.gif") no-repeat 0 0;
+}
+.siteInfoPage .section-promo .promo-2 p{
+	padding-left: 78px;
+	background: transparent url("/images/siteinfo/promo-certifiedmetrics.gif") no-repeat -15px -5px;
+}
+.siteInfoPage .section-promo .promo-3 p{
+	padding-left: 85px;
+	background: transparent url("/images/siteinfo/promo-uptime.gif") no-repeat -10px -5px;
+}
+
+/***** Contact site ***********************************************************/
+.siteInfoPage .section-contactsite h3{
+	margin-bottom: 10px;
+}
+.siteInfoPage .section-contactsite .contact-email{
+	margin-top: 20px;
+}
+
+/***** Site Load Speed ********************************************************/
+
+.VeryFast {
+	background: url('/images/icons/hourglass-veryfast.gif') top left no-repeat;
+	color: #007236;
+	padding: 2px 0 2px 14px;
+}
+.Fast {
+	background: url('/images/icons/hourglass-fast.gif') top left no-repeat;
+	color:  #617128;
+	padding: 2px 0 2px 14px;
+}
+.Average {
+	background: url('/images/icons/hourglass-average.gif') top left no-repeat;
+	color: #827b00;
+	padding: 2px 0 2px 14px;
+}
+.Slow {
+	background: url('/images/icons/hourglass-slow.gif') top left no-repeat;
+	color: #a3620a;
+	padding: 2px 0 2px 14px;
+}
+.VerySlow {
+	background: url('/images/icons/hourglass-veryslow.gif') top left no-repeat;
+	color: #9e0b0f;
+	padding: 2px 0 2px 14px;
+}
+.siteInfoPage #traffic-rank-content .metricsUrl a{
+  color: #333;
+}
+.siteInfoPage #traffic-rank-content .metricsUrl a:hover{
+  color: #c60; 
+}
+.siteInfoPage .topkeywordellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 172px;
+  word-wrap: normal;
+}
+.siteInfoPage .ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-wrap: normal;
+}
+.siteInfoPage ul.popup_list
+{
+  list-style-type:disc;
+  margin-left: 30px;
+}
